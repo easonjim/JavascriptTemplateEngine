@@ -34,8 +34,8 @@ function template_setdata(template, data) {
         return template;
     } 
 }
-//使用方法：
 /*
+使用方法：
 html页面的模板：
 <script type="text/template" id="template_info_content">
     <section class="m_article m_list_item m_list_article clearfix">
@@ -111,9 +111,9 @@ function template2_setdata(template, data) {
     return func(setdatas);
 }
 /*
- 使用方法：
- html页面模板：
- <script type="text/template" id="template2_info_content">
+使用方法：
+html页面模板：
+<script type="text/template" id="template2_info_content">
     <ul>
         <# for ( var i = 0; i < setdatas.length; i++ ) { #>
              <li><a href="<#=setdatas[i].url#>"><#=setdatas[i].title#></a></li>
