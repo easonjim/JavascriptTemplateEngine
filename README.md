@@ -63,8 +63,8 @@ console.log('数组'+outhtml2);
 html页面模板：
 <script type="text/template" id="template2_info_content">
     <ul>
-        <# for ( var i = 0; i < setdatas.length; i++ ) { #>
-             <li><a href="<#=setdatas[i].url#>"><#=setdatas[i].title#></a></li>
+        <# for ( var i = 0; i < data.length; i++ ) { #>
+             <li><a href="<#=data[i].url#>"><#=data[i].title#></a></li>
         <# } #>
     </ul>
 </script>
